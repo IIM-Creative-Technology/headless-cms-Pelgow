@@ -1,0 +1,13 @@
+{
+    "name": "headless-cms",
+    "private": "true",
+    "version": "0.0.1",
+    "workspaces": [
+        "apps/*",
+        "services/*"
+    ],
+    "scripts": {
+        "start-nuxt": "yarn workspace nuxt dev",
+        "start-strapi": "yarn workspace headless-scrapi develop"
+    }
+}

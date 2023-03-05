@@ -1,0 +1,42 @@
+.ProjetContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0rem;
+}
+
+.ImgEtBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: whitesmoke;
+    padding: 0.5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.693);
+    border-radius: 0.5rem;
+}
+
+.ImgEtBtn button {
+    border: none !important;
+}
+
+.ImgEtBtn p {
+    display: flex;
+    flex-direction: column;
+}
+
+.ImgEtBtn:hover {
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.ImgEtBtn button:hover {
+    cursor: pointer;
+}
+
+.ImgContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
